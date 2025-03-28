@@ -109,4 +109,5 @@ def download_output():
 
 if __name__ == '__main__':
     app.static_folder = '.'  # Serve static files (like index.html)
-    app.run(debug=True, host='0.0.0.0', port=int(os.environ.get("PORT",5000)))
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=True, host='0.0.0.0', port=port)
