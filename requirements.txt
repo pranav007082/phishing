@@ -198,6 +198,7 @@ starlette==0.46.0
 sympy==1.13.3
 tenacity==8.5.0
 terminado==0.18.1
+tensorflow
 thinc==8.2.5
 threadpoolctl==3.5.0
 tiktoken==0.8.0
